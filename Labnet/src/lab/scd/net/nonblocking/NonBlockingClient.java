@@ -21,7 +21,7 @@ public class NonBlockingClient {
 		client.configureBlocking(false);
 
 //		 Connection to host port 8000
-		client.connect(new java.net.InetSocketAddress("localhost",8000));
+		client.connect(new java.net.InetSocketAddress("172.20.10.5",8000));
 
 //		 Create selector
 		Selector selector = Selector.open();

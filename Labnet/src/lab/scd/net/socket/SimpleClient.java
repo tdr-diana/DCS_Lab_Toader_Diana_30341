@@ -11,7 +11,7 @@ public class SimpleClient {
 		Socket socket = null;
 		try {
 			// creating object address that identifies the server address
-			InetAddress address = InetAddress.getByName("localhost");
+			InetAddress address = InetAddress.getByName("172.20.10.5");
 			// the alternative could be used: InetAddress.getByName ("127.0.0.1")
 			socket = new Socket(address, 1900);
 
